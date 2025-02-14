@@ -15,6 +15,7 @@ type Sensor interface {
 	ID() int
 	Info() string
 	SetHandler(handler MessageHandler)
+	IsRunning() bool
 }
 
 type BaseSensor struct {
@@ -36,4 +37,10 @@ func (s *BaseSensor) SetHandler(handler MessageHandler) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
 	s.messageHandler = handler
+}
+
+func (s *BaseSensor) IsRunning() bool {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	return s.isRunning
 }
