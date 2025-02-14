@@ -1,4 +1,4 @@
-package serial
+package sensors
 
 const (
 	DeviceAcceleration = iota

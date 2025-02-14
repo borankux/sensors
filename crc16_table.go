@@ -1,4 +1,4 @@
-package serial
+package sensors
 
 // CRC-16 Modbus Table
 var Crc16ModbusTable = [256]uint16{

@@ -1,4 +1,4 @@
-package serial
+package sensors
 
 import (
 	"encoding/json"

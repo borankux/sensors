@@ -1,4 +1,4 @@
-package serial
+package sensors
 
 // ComputeCRC16 calculates the Modbus CRC16 checksum
 func ComputeCRC16(data []byte) uint16 {
