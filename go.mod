@@ -1,1 +1,1 @@
-module go-parse-test
+module github.com/borankux/sensors

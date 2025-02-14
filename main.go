@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"go-parse-test/serial"
+	"github.com/borankux/sensors/serial"
 	"log"
 	"time"
 )
@@ -16,6 +16,6 @@ func main() {
 	manager.AddSensor(serial.NewPassive(1, 1, "0.0.0.0", "00", 400, serial.DeviceAcceleration, time.Second*5))
 	manager.StartAllSensors()
 	for {
-		
+
 	}
 }
