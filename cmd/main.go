@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"encoding/json"
-	"github.com/borankux/sensors"
+	"github.com/borankux/serial"
 	"log"
 	"time"
 )

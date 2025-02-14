@@ -1,1 +1,1 @@
-module github.com/borankux/sensors
+module github.com/borankux/serial
