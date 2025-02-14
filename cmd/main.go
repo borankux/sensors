@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/borankux/sensors/serial"
+	"github.com/borankux/sensors"
 	"log"
 	"time"
 )
